@@ -22,7 +22,7 @@ when declaring functions, variables, ect in global level, they may share same na
 
 To stop polluting global namespace you can encapsulate related function in an object. 
 
-'''javascript
+```javascript
 var myApp = {}
 myApp.person = 'Kevin'
-'''
+```
