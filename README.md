@@ -12,5 +12,5 @@ AngularJS and other front end frameworks are created to mainly solve this proble
 
 whatever happens in a view affects model and the other way around as well. 
 
-## Lecture 6 - HTML Aside: Custom Attricutes
+## Lecture 6 - HTML Aside: Custom Attributes
 
