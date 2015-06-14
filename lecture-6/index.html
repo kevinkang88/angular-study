@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Custom Attributes</title>
+  <meta name='description' content='html custom attributes'>
+  <meta name='author' content='Dongyoon Kang'>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+</head>
+<body>
+  <!-- 1.assign custom attribute to html tag -->
+  <h1 person='in h1'></h1>
+  <!-- how would it be retrieved -->
+  <script>
+    console.log($('h1').attr('person'));
+  </script>
+
+  <!-- 2.assign custom attribute html5 way -->
+  <h2 data-person='in h2'></h2>
+  <!-- how would it be retrieved -->
+  <script>
+    console.log($('h2').attr('data-person'));
+  </script>
+
+  <!-- 3.assign custom attribute angular way -->
+  <h3 ng-person="Angular Way"></h2>
+  <!-- how would it be retrieved -->
+  <script>
+    console.log($('h3').attr('ng-person'));
+  </script>
+</body>
+</html>
