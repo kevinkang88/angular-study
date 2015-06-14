@@ -26,3 +26,12 @@ To stop polluting global namespace you can encapsulate related function in an ob
 var myApp = {}
 myApp.person = 'Kevin'
 ```
+
+## Lecture 8 
+
+n/a
+
+## Lecture 9 - Modules, Apps, and Controllers
+
+see the folder 
+
