@@ -8,7 +8,7 @@ AngularJS and other front end frameworks are created to mainly solve this proble
 
 ## Lecture 5 - Model, View, * (Whatever)
 
-* (Whatever) is in case is a componenet that is used to bind model and view together. 
+(*),Whatever is in case is a componenet that is used to bind model and view together. 
 
 whatever happens in a view affects model and the other way around as well. 
 
